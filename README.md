@@ -3,7 +3,7 @@
 A responsive React application built with Vite, featuring a Login and Home page, Redux for state management, form validation, an image slider, and a country listing with pagination. All components are styled .
 
 ## Table of Contents
-
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -16,6 +16,11 @@ A responsive React application built with Vite, featuring a Login and Home page,
 - [Live Demo (Optional)](#live-demo-optional)
 - [Contributing (Optional)](#contributing-optional)
 - [License](#license)
+
+## Live Demo
+
+You can view a live demo of the application here: [https://react-country-list-app.netlify.app/](https://react-country-list-app.netlify.app/)
+
 
 ## Features
 
@@ -47,3 +52,5 @@ A responsive React application built with Vite, featuring a Login and Home page,
 * **Redux Toolkit** (for efficient state management)
 * **React Router DOM** (for navigation)
 * **React Icons** (for various UI icons)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://react-country-list-app.netlify.app/)
