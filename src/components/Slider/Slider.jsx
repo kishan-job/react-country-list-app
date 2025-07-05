@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./slider.css";
+import "./Slider.css";
 import { signIn } from "../../assets/index";
 import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import { FaCircle } from "react-icons/fa";
