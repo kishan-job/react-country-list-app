@@ -1,0 +1,65 @@
+.card {
+  width: 528px;
+  height: 130px;
+  border: 2px solid #3e3e3e;
+  display: flex;
+  padding: 17px 18px;
+}
+
+.card img {
+  width: 127px;
+  height: 96px;
+}
+
+.card .content {
+  margin-left: 28px;
+  line-height: 5px;
+}
+
+.card .continent {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  color: #3d3d3d;
+}
+
+.card .country {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+@media (max-width: 1075px) {
+  .card {
+    width: 317px;
+    height: 68px;
+  }
+
+  .card img {
+    width: 48px;
+    height: 46px;
+  }
+
+  .card .continent {
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+  }
+
+  .card .country {
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .card {
+    width: unset;
+    padding: 10px;
+  }}

@@ -1,0 +1,104 @@
+.container {
+  width: 1075px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 16px;
+}
+
+h1.welcome {
+  text-align: center;
+  color: #3d3d3d;
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  position: relative;
+  margin-top: 30px;
+}
+
+section .welcome::after {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 2px;
+  background-color: #3d3d3d;
+  right: 0;
+  bottom: 0;
+}
+
+section .welcome::before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 2.5px;
+  background-color: #3d3d3d;
+  left: 0;
+  top: 0;
+}
+
+section .heroSlide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+}
+
+section .asideImage {
+  width: 232px;
+  height: 498px;
+  border: 2px solid #3d3d3d;
+  position: relative;
+  background: #f0f0f0;
+}
+
+section .asideImage img {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1075px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  section .asideImage {
+    width: 232p x;
+    height: 498px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: unset;
+  }
+  section {
+    margin: 32px 36px;
+  }
+
+  section .heroSlide {
+    flex-direction: column-reverse;
+    gap: 19px;
+  }
+
+  section .asideImage {
+    width: unset;
+    height: 147px;
+  }
+
+  section .welcome::before {
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  section .welcome::after {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+}

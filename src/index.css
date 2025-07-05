@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 768px;
+  }
+}
+
+
+@media ( max-width:780px){
+
+    .wrapper{
+        width: unset;
+        padding:0 32px
+
+    }
+}
